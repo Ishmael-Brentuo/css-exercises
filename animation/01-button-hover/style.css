@@ -17,3 +17,8 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+button:hover{
+  color: deeppink;
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+}
