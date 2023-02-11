@@ -22,15 +22,16 @@ button {
   color: #ffffff;
   background-color: #0e79dd;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   font-weight: 600;
+  font-size: 18px;
 }
 
 .popup-modal {
   padding: 32px 64px;
   background-color: white;
-  border: 1px solid black;
-  border-radius: 10px;
+  border: 1px solid rgb(228, 93, 93);
+  border-radius: 30px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -42,6 +43,7 @@ button {
 }
 .popup-modal::before{
   color: deeppink;
+  transform: scale(1.5);
 }
 button:hover{
   color: deeppink;
